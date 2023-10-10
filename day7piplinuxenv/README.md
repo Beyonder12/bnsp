@@ -3,6 +3,8 @@ fajriillahi@Fajris-MacBook-Pro ~ % which python3.8
 
 pip install virtualenv
 
+sudo add-apt-repository ppa:deadsnakes/ppa
+ 
 sudo apt install python3.8
 sudo apt install python3.9
 sudo apt install python3.10
