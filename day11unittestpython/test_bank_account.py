@@ -34,6 +34,8 @@ class TestBankAccount(unittest.TestCase):
         with self.assertRaises(ValueError) as context:
             self.account.withdraw(50)
         self.assertEqual(str(context.exception), "Balance is insufficient!")
+if __name__ == "__main__":
+    unittest.main()
 
 
 #Install pytest
