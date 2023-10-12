@@ -46,3 +46,7 @@ deactivate
 
 # For Windows
 via browser
+
+## Others
+lsb_release -a
+
