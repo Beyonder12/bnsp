@@ -25,14 +25,16 @@ sudo add-apt-repository ppa:deadsnakes/ppa
 2. virtualenv -p /usr/bin/python3.9 env3.9
 3. virtualenv -p /usr/bin/python3.10 env3.10
 
+# Activate using Linux
 1. source env3.8/bin/activate
 2. source env3.9/bin/activate
 3. source env3.10/bin/activate
 
+# Install pip for python3.8
 1. curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 2. python3.8 get-pip.py
 
-
+# Deactivate
 deactivate
 
 # STEPS
