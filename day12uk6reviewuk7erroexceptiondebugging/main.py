@@ -2,8 +2,8 @@ import os
 
 
 while True:
-    try:
-        # os.system('clear')
+
+        os.system('clear')
         
         print(' Welcome to The Club')
         print('====================')
@@ -17,7 +17,3 @@ while True:
         name = input('Name: ')
         print('\nHello, Mr./Mrs.', name + '\n')
         print('====================')
-        option/5
-    except:
-        pass
-    
