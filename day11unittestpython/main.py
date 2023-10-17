@@ -31,3 +31,11 @@ def test_normal_case():
 def test_normal_case1():
     rectangle = Rectangle(3, 5)
     assert rectangle.get_height() == print(3), "Incorrect function"
+
+
+
+# run
+# pip install pytest
+
+# run
+# python3 -m pytest main.py

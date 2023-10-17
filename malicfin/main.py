@@ -1,8 +1,23 @@
 import os
+import CRUD as CRUD
 
 if __name__ == "__main__":
+
+    operation_system = os.name
+
+    match operation_system:
+        case "posix": os.system('clear')
+        case 'nt': os.system('cls')
+
+    print('WELCOME TO THE APPLICATION')
+    print('DATABASE OF LIBARY')
+    print('===========================')
+
+    # Check database exist or not
+    CRUD.init_console()
+
     while(True):
-        operation_system = os.name
+
         match operation_system:
             case "posix": os.system('clear')
             case 'nt': os.system('cls')
