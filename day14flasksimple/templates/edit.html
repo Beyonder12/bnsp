@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <h1>Edit Item</h1>
+    <form action="{{ url_for('edit', id=item.id) }}" method="post">
+        <label>Name: <input type="text" name="name" value="{{ item.name }}"></label>
+        <input type="submit" value="Update">
+    </form>
+{% endblock %}
